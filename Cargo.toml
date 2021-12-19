@@ -8,6 +8,10 @@ description = "A small libray meant to ease interfacing with the keyboard on som
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
+[lib]
+name = "lenovolegionhid"
+crate-type = ["dylib"]
+
 [dependencies]
 thiserror = "1.0.30"
 
